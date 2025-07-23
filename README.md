@@ -16,7 +16,8 @@
 
 ## 📁 Project Structure
 
-🧩 How It Works
+## 🧩 How It Works
+
 User submits a trip request (e.g., "Plan a 3-day trip to Greece") via Streamlit.
 
 The frontend sends a POST to the FastAPI endpoint /query.
@@ -27,7 +28,8 @@ The AI responds with a detailed itinerary based on context and data.
 
 The frontend displays the plan as markdown.
 
-⭐ Why It Stands Out
+## ⭐ Why It Stands Out
+
 Agent-driven design enables context retention and dynamic updates
 
 Integrated tools give real-time data alongside AI-generated text
