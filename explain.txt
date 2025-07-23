@@ -1,0 +1,16 @@
+Start in the agentic workflow 
+Inside, we have the GraphBuilder class that has 3 functioons. It has the agent function and the build graph function 
+The buildgraph initiates the graph and adds the node functions. The 2nd node is the tools node. 
+Edges is the connectivity 
+The llm model comes from the model loader that we created. 
+The model loader code has the models that we will be using
+After loading the LLM we will pass it to the agent function and binding the tools. 
+We will then invoke the llm and then the prompt is being pulled as the input to the model. 
+The Graph Builder  - we created an endpoint in the APP.PY file. 
+We will call the Graph BUilder object. The graph will be created and saved. 
+
+Langchain allows us to create various tools that the Agent relies on to do its specific tasks
+from langchain.tools import tool - @tool then def the tool
+
+What does @staticmethod do?
+What does "dict" do? 
